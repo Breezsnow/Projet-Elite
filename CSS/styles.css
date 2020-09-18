@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-image: url(../Images/bg.jpg);
+}
+
+h1,
+h2,
+h3  {
+    color: blanchedalmond;
+}
+
+h1 {
+     font-size: 5rem;
+     max-width: 800px;
+     text-align: center;
+     margin: 1rem;
+     font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 1rem auto;
+}
+
+h3 {
+    margin: 1rem;
+}
+
+#intro-text {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.jobs {
+    border: 8px groove rgb(193,88,24);
+    margin: 0.25rem;
+}
+
+.jobs-img {
+    width: 100%;
+    text-align: center;
+
+}
+
+.jobs-description {
+    text-align: justify;
+    margin: 1rem auto;
+    padding: 1rem;
+    
+}
+
+.jobs-name {
+    text-align: center;
+    font-size: 2rem;
+    max-width: 800px;
+}
+
+#jobs-layout {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#intro {
+    background-color: black;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#container {
+    background-color: black;
+    max-width: 800px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.shipyard-layout {
+    display: flex;
+    flex-direction: row;
+    flex: 30%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.shipyard-layout img {
+    width: 33%;
+}
+
+.shipyard-layout1 {
+    display: flex;
+    flex-direction: row;
+    flex: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.shipyard-layout .shipyard-layout1 img {
+    width: 50%;
+}
+
+#sell-out p {
+    margin: 1rem;
+
+}
+
+#sellout-list {
+    list-style-type: none;
+    display: flex;
+}
+#sellout-list li {
+    margin: 0 auto;
+}
+
+.hoverable {
+    position: relative;
+    width: 1rem;
+}
+.hoverable .overlay {
+    background-color: #4C8DAF;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hoverable .overlay.overlay-fade {
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+footer {
+    background-color: orange;
+    box-sizing: border-box;
+    margin: 2rem auto;
+    text-transform: capitalize;
+    text-align: center;
+}
